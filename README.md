@@ -1,8 +1,8 @@
 
-# Fake News Classification using LSTM (Title-Based Prediction)
+# Fake News Classification using Bi-LSTM (Title-Based Prediction)
 
 ## Project Overview
-This project focuses on **Fake News Classification** using **Natural Language Processing (NLP)** and **Long Short-Term Memory (LSTM)** networks.  
+This project focuses on **Fake News Classification** using **Natural Language Processing (NLP)** and **Bidirectional - Long Short-Term Memory (Bi-LSTM)** networks.  
 The goal is to predict whether a news article is **fake or real** by analyzing **only the news title**, without using the full article text.
 
 This approach demonstrates how much contextual information can be extracted from short text sequences like headlines.
@@ -55,7 +55,7 @@ The dataset contains the following features:
 
 3. **Model Architecture**
    - Embedding Layer
-   - LSTM Layer
+   - Bi-LSTM Layer
    - Dense Layer with Sigmoid activation
 
 4. **Model Training**
@@ -77,14 +77,13 @@ The dataset contains the following features:
 
 ## Key Insights
 - News titles alone contain strong signals for fake news detection.
-- LSTM performs well in understanding sequential and contextual word dependencies.
+- Bi-LSTM performs well in understanding sequential and contextual word dependencies.
 - Using short text inputs reduces computational cost while maintaining high accuracy.
 
 ---
 
 ## Future Improvements
 - Combine **title + text** for improved performance
-- Use **Bi-LSTM** or **GRU**
 - Apply **pretrained word embeddings** (GloVe, FastText)
 - Fine-tune **Transformer models (BERT)**
 
@@ -99,10 +98,6 @@ The dataset contains the following features:
 ├── notebooks/
 
 │ └── Fake_News_Class_LSTM_RNN.ipynb
-
-├── models/
-
-│ └── lstm_model.h5
 
 ├── README.md
 
