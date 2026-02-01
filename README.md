@@ -102,18 +102,17 @@ For model training, **only `description_x` and `description_y`** were used as in
 
 ├── data/
 
-  └── train.csv
+   └── train.csv
   
-  └── test.csv
+   └── test.csv
 
 ├── notebooks/
 
-  └── Fake_News_Class_LSTM_RNN.ipynb
+   └── Fake_News_Class_LSTM_RNN.ipynb
 
 ├── README.md
 
-  └── requirements.txt
-
+   └── requirements.txt
 
 
 ---
